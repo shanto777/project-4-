@@ -1,0 +1,313 @@
+{}*/
+@import url(@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;515;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0;
+padding: 0;
+
+}
+.logo{
+
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Quicksand', sans-serif;
+
+}
+p,input,span,button{
+	font-family: 'Roboto', sans-serif;
+}
+a,a hover{
+	text-decoration: none;
+}
+ul,li{
+	list-style: none;
+}
+.container {
+width: 1140px;
+margin: 0 auto ;
+
+}
+/*css header part*/
+/*logo stat*/
+.header{
+	    width: 100%;
+    
+
+}
+.logo{
+	margin: 21px 14px;
+}
+
+.logo span{
+	    font-size: 18px;
+	    margin-left: 8px;
+	    font-weight: bold;
+	    vertical-align: middle;
+	}
+	.logo img{
+		    vertical-align: middle;
+	}
+	/*logo end
+	/*banner stat*/
+	.banner{
+
+		width: 100%;
+		display: flow-root;
+	}
+	.banner-info{
+		width: 100%;
+		float: left;
+
+	}
+.banner-left{
+    float: left;
+    width: 60%;
+    font-size: 21px;
+   
+}
+
+}
+.banner-right{
+	float: left;
+	width: 40%;
+
+
+}
+.left-content {
+	 margin: 81px 37px 0px -38px;
+
+
+	}
+	.left-content h1{
+		    font-size: 46px;
+    font-weight: 500;
+}
+
+
+
+	}
+    .left-content p {
+    	    margin: 2px 50px 54px 0px;
+
+
+    }
+    
+    .banner-button{
+    	margin: 15px 0;
+
+     
+}
+      button{
+    
+margin: 0 32px 0 -3px;
+    padding: 20px 40px;
+    border-radius: 32px;
+    outline: none;
+   
+    border: 1px solid #ed6524;
+    background: #ed6524
+    
+       
+    font-size: 20px;
+}
+.left-content .banner-button .left-btn{
+	background: #ed6524;
+	 color: white;
+
+}
+
+   .left-content .banner-button .right-btn {
+background-color: transparent;
+color: #ed6524;
+transition: all 0.5s ease-in-out;
+
+
+   }
+   .left-content .banner-button .left-btn:hover{
+   	cursor: pointer;
+
+   }
+
+    .left-content .banner-button .right-btn:hover{
+background-color : #ed6524;
+color: white;
+cursor: pointer;
+transition: all 0.5s ease-in-out;
+   }
+   .comment{
+   	    margin: 50px 50px 0 0;
+   }
+   .comment-box {
+   	width: 100%;
+   	background-color:#f6f8fc;
+   	padding: 20px 30px; 
+   	border-left: 4px solid  #ed6524;
+   	position: relative;
+   }
+   .comment-box p{
+   	font-size: 19px;
+    font-style: italic;
+   }
+.box-icon{
+	width: 40px;
+	height:40px;
+	background-color:#f6f8fc;
+	position: absolute;
+	bottom: -20px;
+	left: 50px;
+	transform: rotate(45deg);
+}
+.comment-user{
+	width: 100%;
+	float:left;
+	    margin: 40px 21px;
+}
+
+	.user-left{
+		width: 15%;
+		float: left;
+
+	}
+	.user-right{
+		width: 80%;
+		float: right;
+
+	}
+	 .text-1 p{
+		margin: 34px -4px 0px 0px;
+	}
+	.text-2 p{
+		margin:0 0 0 0;
+	}
+	.right-content{
+		position: relative;
+	}
+	.book-circle{
+		width: 100px;
+		height: 100px;
+		background-color: green;
+		border-radius: 50%;
+		position: absolute;
+		top: -30px;
+		right: 0;
+	}
+.book-circle h3{
+	    color: white;
+    padding: 13px 0;
+    text-align: center;
+}
+.book-link a{
+	    border-bottom: 1px solid black;
+    margin: 0px 0 0 152px;
+    font-size: 2;
+    font-size: 20px;
+}
+
+
+
+
+	/*banner end*/
+
+/*service section*/
+.service{
+	width: 100%;
+	display: flow-root;
+	background-image: linear-gradient(to bottom, #f6f8fc 0%, #fff 70%);
+	background-repeat: repeat-x;   
+	padding: 70px 0;
+	text-align: center; 
+}
+.service-title h1{
+	    font-size: 44px;
+    margin-bottom: 20px;
+}
+.service-title p{
+	    font-size: 20px;
+	     color: #4c527d;
+}
+.service-gallary{
+	margin-top: 80px;
+	width: 100%;
+	float: left;
+
+}
+.item {
+	width: 30%;
+	float: left;
+}
+.item-ds{
+	text-align: center;
+	padding: 40px;
+}
+i{
+	    font-size: 56px;
+	    color: #ed6524
+}
+.included{ 
+	width: 100%;
+	display:flow-root;
+	padding: 70px 0 ;
+	text-align: center;
+
+}
+.included-title h1{
+	font-size: 44px;
+    margin-bottom: 20px;
+
+}
+.included-details{
+	width: 100%;
+	float: left;
+}
+.included-left{
+	float: left;
+	width: 50%;
+}
+.included-right{
+	float: left;
+	width: 50%;
+
+}
+.included-right ul li{
+	line-height: 40px;
+	font-size: 20px;
+}
+.included-right i{
+	height: 20px ;
+	width: 20px ;
+	text-align: center;
+	line-height: 20px ;
+	background-color:#7FCDB8 ;
+	border-radius:100%;
+	font-size: 20px;
+	color: black;
+
+}
+.list .button{
+	margin: 30px 0;
+}
+ button{
+	padding: 20px 20px;
+	border-radius: 32px;
+	outline: none;
+	border:2px solid #ed6524;
+	font-size: 19px;
+	font-weight: 600;
+	background-color: #ed6524;
+	color: white;
+
+}
+.who{
+	width: 100%;
+}
+.who-text h1{
+	    text-align: center;
+    font-size: 44px;
+    margin-bottom: 20px;
+
+}
+.who-text p{
+	font-size: 20px;
+	     color: #4c527d;
+	     text-align: center;
+	     margin: 15px 116px;
+}
